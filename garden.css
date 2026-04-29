@@ -94,6 +94,13 @@ button:hover
     gap: 15px;
     padding: 10px 0;
 }
+.scroll-container img
+{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+}
 .slide
 {
     width: 250px;
@@ -125,6 +132,13 @@ button:hover
     padding: 20px;
     border-radius: 8px;
 	overflow: hidden;
+}
+.project img
+{
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 8px;
 }
 .controls label
 {

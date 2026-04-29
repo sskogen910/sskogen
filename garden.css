@@ -87,6 +87,51 @@ button
 		  width: 100% ; }
 button:hover
 		{ background-color: var(--secondary-color); }
+.project
+{
+    margin-bottom: 50px;
+}
+
+.slider
+{
+    max-width: 500px;
+    position: relative;
+}
+
+.slides img
+{
+    width: 100%;
+    display: none;
+    border-radius: 8px;
+}
+
+#s1:checked ~ .slides img:nth-child(1),
+#s2:checked ~ .slides img:nth-child(2),
+#s3:checked ~ .slides img:nth-child(3),
+#s4:checked ~ .slides img:nth-child(4),
+#s5:checked ~ .slides img:nth-child(5),
+#s6:checked ~ .slides img:nth-child(6),
+#s7:checked ~ .slides img:nth-child(7)
+{
+    display: block;
+}
+
+.controls
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.controls label
+{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
 body 		
 		{ margin: 0;
 		  background-color: var(--background-color);
